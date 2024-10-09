@@ -7,9 +7,4 @@
     <Nullable>enable</Nullable>
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Arch" Version="1.2.8" />
-  </ItemGroup>
-
 </Project>

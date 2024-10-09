@@ -1,0 +1,1 @@
+global using Archetype = System.Collections.Generic.Dictionary<System.Type, Frent.Lab.IComponentStorage>;
