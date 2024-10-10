@@ -7,3 +7,10 @@ internal interface IComponentStorage
     Span<T> AsSpan<T>() where T : struct;
     IComponentStorage Clone();
 }
+
+internal interface IComponentStorage<T> : IComponentStorage
+    where T : struct
+{
+    void Push(in T t);
+    Span<T> AsSpan();
+}

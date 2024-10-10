@@ -20,6 +20,7 @@ internal class CStorage<T> : Storage<T>
 }
 
 internal interface IComponent<TArg> : IFrentComponent
+    where TArg : struct
 {
     void Update(ref TArg arg);
 }
